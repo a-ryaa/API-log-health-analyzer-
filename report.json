@@ -1,0 +1,87 @@
+{
+    "summary": {
+        "total_requests": 10,
+        "total_errors": 2,
+        "overall_error_rate": 20.0,
+        "overall_success_rate": 80.0,
+        "avg_response_ms": 481.4,
+        "median_response_ms": 252.0,
+        "p95_response_ms": 1881,
+        "status_codes": {
+            "200": 5,
+            "204": 3,
+            "401": 1,
+            "403": 1
+        },
+        "errors_by_hour": {
+            "08": 2
+        }
+    },
+    "endpoints": [
+        {
+            "endpoint": "/api/login",
+            "requests": 5,
+            "success_rate": 60.0,
+            "error_rate": 40.0,
+            "4xx": 2,
+            "5xx": 0,
+            "avg_ms": 221.8,
+            "min_ms": 111,
+            "max_ms": 285,
+            "p95_ms": 285,
+            "status": "CRITICAL"
+        },
+        {
+            "endpoint": "/api/search",
+            "requests": 1,
+            "success_rate": 100.0,
+            "error_rate": 0.0,
+            "4xx": 0,
+            "5xx": 0,
+            "avg_ms": 452,
+            "min_ms": 452,
+            "max_ms": 452,
+            "p95_ms": 452,
+            "status": "HEALTHY"
+        },
+        {
+            "endpoint": "/api/users",
+            "requests": 1,
+            "success_rate": 100.0,
+            "error_rate": 0.0,
+            "4xx": 0,
+            "5xx": 0,
+            "avg_ms": 167,
+            "min_ms": 167,
+            "max_ms": 167,
+            "p95_ms": 167,
+            "status": "HEALTHY"
+        },
+        {
+            "endpoint": "/api/payments",
+            "requests": 2,
+            "success_rate": 100.0,
+            "error_rate": 0.0,
+            "4xx": 0,
+            "5xx": 0,
+            "avg_ms": 1467,
+            "min_ms": 1053,
+            "max_ms": 1881,
+            "p95_ms": 1881,
+            "status": "DEGRADED"
+        },
+        {
+            "endpoint": "/api/products",
+            "requests": 1,
+            "success_rate": 100.0,
+            "error_rate": 0.0,
+            "4xx": 0,
+            "5xx": 0,
+            "avg_ms": 152,
+            "min_ms": 152,
+            "max_ms": 152,
+            "p95_ms": 152,
+            "status": "HEALTHY"
+        }
+    ]
+}
